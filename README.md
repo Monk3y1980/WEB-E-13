@@ -20,4 +20,14 @@ npm i html-webpack-plugin
 устанавливаю DevServer npm install --save-dev webpack-dev-server
 запускаю npx webpack serve
 
+npm i dotenv
+npm i copy-webpack-plugin
+npm i uglifyjs-webpack-plugin
+
+установка JSON Server
+npm i json-server
+добавляю db.json
+стартую сервер
+json-server --watch db.json
+
 
